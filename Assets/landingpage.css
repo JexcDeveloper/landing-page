@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background: #eeeeee;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 150px;
+}
+
+.logo {
+  margin: 10px 0;
+}
+
+.navBar .navList {
+  display: flex;
+}
+
+.navBar .navList ul {
+  display: flex;
+  list-style: none;
+}
+
+.navBar .navList ul li {
+  line-height: 50px;
+  margin: 0 10px;
+}
+.navBar .navList ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.joinBtn {
+  padding: 2px;
+  width: 130px;
+  height: 50px;
+  margin: 0 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #3d1766;
+  color: #f2f2f2;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.homeContent {
+  padding: 0 150px;
+}
+
+.homeContent #infoBtn {
+  padding: 5px 30px;
+  font-size: 1rem;
+  background-color: #3d1766;
+  color: #a084dc;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+.homeContent #infoBtn a {
+  color: #f7f7f7;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+}
+
+.col-1 h1 {
+  font-size: 3rem;
+  margin-top: 20px;
+  font-weight: 900;
+  color: #2a0944;
+}
+.col-1 p {
+  max-width: 650px;
+}
+
+#useremail {
+  padding: 15px;
+  width: 315px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.joinwaitlist {
+  line-height: 80px;
+}
+
+.companyimages svg {
+  margin: 15px 5px;
+}
+
+.companies h4 {
+  margin-top: 60px;
+}
